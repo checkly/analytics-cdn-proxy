@@ -4,6 +4,14 @@
   "build": {
     "env": {}
   },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Host", "value": "cdn.segment.com" }
+      ]
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
