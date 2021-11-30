@@ -6,8 +6,8 @@
   },
   "rewrites": [
     {
-      "source": "/:path(.*)",
-      "destination": "https://cdn.segment.com/:path*"
+      "source": "/(.*)",
+      "destination": "https://cdn.segment.com/$1"
     }
   ]
 }
