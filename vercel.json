@@ -1,0 +1,13 @@
+{
+  "name": "analytics-cdn-proxy",
+  "scope": "checkly",
+  "build": {
+    "env": {}
+  },
+  "rewrites": [
+    {
+      "source": "/:path",
+      "destination": "https://cdn.segment.com/:path"
+    }
+  ]
+}
