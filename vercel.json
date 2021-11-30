@@ -8,6 +8,7 @@
     {
       "source": "/(.*)",
       "headers": [
+        { "key": "x-frame-options", "value": "deny" },
         { "key": "Host", "value": "cdn.segment.com" }
       ]
     }
